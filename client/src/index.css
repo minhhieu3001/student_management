@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .ce-my-message-bubble {
+  background-image: linear-gradient(to bottom right, #0c67b3, black) !important;
+
+}
+.ce-their-message-bubble {
+  background-image: linear-gradient(to bottom right, white, darksalmon) !important;
+
+} */
+
+/* .ce-chats-container {
+  background-color:lightblue !important;
+} */
+/* .ce-settings {
+  background-color: #ff6f61 !important;
+} */
+/* .ce-chat-form-container {
+  background-color: lightblue !important;
+} */
+/* .ce-chat-card {
+  background-color: #ff6f61;
+} */
+/* .ql-editor:hover {
+  background-color: lightgrey !important;
+} */
+/* .ql-toolbar {
+  background-image: linear-gradient(to bottom right, blue, darksalmon) !important;
+} */
+/* .ce-chat-title-container {
+  background-image: linear-gradient(to bottom right, blue, yellow) !important;
+} */
+.ce-chat-card {
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+.ce-active-chat-card {
+  background-color: rgb(20, 72, 121) !important;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2),
+    6px 6px 20px 10px rgba(0, 0, 0, 0.19);
+  color: white !important;
+}
+/* .ce-chats-container {
+  background-color: rgba(248, 246, 246, 0.63) !important;
+} */
+.ce-chat-form-container,
+.ce-chats-container,
+.ce-settings {
+  background-color: rgba(248, 246, 246, 0.63) !important;
+}
+.ce-chat-card.false {
+  background-color: rgb(213, 220, 233) !important;
+}
+#new-chat-plus-button.ce-primary-button {
+  background-color: rgb(20, 72, 121) !important;
+}
+.ce-chat-title-container {
+  background-color: rgba(213, 220, 233, 0.637) !important;
+  color: rgb(20, 72, 121) !important;
+}
+.ql-editor {
+  background-color: rgba(213, 220, 233, 0.726) !important;
+}
+.ce-message-bubble.ce-my-message-bubble {
+  background-color: rgb(20, 72, 121) !important;
+}
+#ce-send-message-button {
+  background-color: rgb(20, 72, 121) !important;
+}
+.ce-input.ce-text-input {
+  background-color: rgb(213, 220, 233);
+  color: rgb(20, 72, 121);
+}
+
+/* .ce-chat-form-container div {
+  color: #f8f6f6;
+}
+
+.ce-primary-button {
+  padding-right: 40px;
+} */
+/* .ce-chat-card{
+  background-image: linear-gradient(to bottom right, lightblue, darksalmon) !important;
+} */
+
+.change_status_red {
+  color: red;
+}
+.change_status_green {
+  color : green;
+}

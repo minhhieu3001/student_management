@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_right {
+  float: right;
+  cursor: pointer;
+}
+
+.btn {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+tr {
+  height: 10px;
+}
+
+.dropdown-toggle {
+  background-color: whitesmoke;
+}
+
+.text_center {
+  /* text-align: center; */
+  /* font-weight: bold; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#title_ql {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5rem;
+  color: #09599b;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
+}
+.hide {
+  background-color: white;
+}
+
+.data {
+  float: right;
+  margin-right: 10px;
+}
+
+.sort_selected::after {
+  content: "\f00c";
+  font-weight: normal;
+  font-family: FontAweSome;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+  margin-left: 30%;
+}
+
+.back {
+  padding-top: 50px;
+  margin-left: 20%;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.dropdown {
+  float: left;
+  margin-right: 20px;
+}
+
+#qlsv {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #0b5592;
+}

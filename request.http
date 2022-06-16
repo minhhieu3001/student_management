@@ -1,0 +1,68 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "19021269",
+    "password": "19021269"
+}
+
+###
+
+DELETE  http://localhost:5000/student/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTk2MDI5YmE1ODI4OGU0OTMzMDM4NWIiLCJpYXQiOjE2MzcyMjEyMjV9.vPQmErPabfA9qdYfJKk_h2CpHMutgcv8vZGh_qB5V_8
+Content-Type: application/json
+
+{
+   "msv": "19021266"
+}
+
+###
+POST http://localhost:5000/create-student-account
+Content-Type: application/json
+
+{
+    "username": "covan1@vnu.edu.vn",
+    "password": "covan1",
+    "lop": "K64-CA-CLC-4"
+}
+
+###
+
+POST http://localhost:5000/student/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTk2MDI5YmE1ODI4OGU0OTMzMDM4NWIiLCJpYXQiOjE2MzcyMjEyMjV9.vPQmErPabfA9qdYfJKk_h2CpHMutgcv8vZGh_qB5V_8
+Content-Type: application/json
+
+{
+    "msv": "1902140",
+    "name": "Lê Mạnh",
+    "birthday": "2001-03-02",
+    "gender": "Nam",
+    "phone": "0389469221",
+    "address": "Hà Nội",
+    "sum_of_credits": 86,
+    "gpa": 2.5,
+    "status": "Không",
+    "lop": "K64-CA-CLC4"
+}
+###
+GET http://localhost:5000/student/all/K64-CA-CLC-4
+
+###
+PATCH    http://localhost:5000/post/update/1050
+Content-Type: application/json
+
+{
+    "content": "Upofdffdfstfdf"
+    
+}
+
+###
+GET http://localhost:5000/student/619f544fe5e3738cca25cf86
+
+###
+
+PATCH http://localhost:5000/post/comment/1050
+Content-Type: application/json
+{
+    "cmt": "hiencoi9999"
+}
