@@ -25,6 +25,7 @@ class ListStudent extends Component {
       if (res.data.ListStudents != null) {
         this.setState({
           students: res.data.ListStudents,
+          
         });
       } else {
         this.setState({
