@@ -38,6 +38,10 @@ class ListStudent extends Component {
       } else {
         this.setState({
           students: [],
+
+
+
+          
         });
       }
       console.log(this.state.students);
